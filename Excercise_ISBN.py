@@ -1,0 +1,17 @@
+digit_0 = int(input('Enter digit_0: '))
+digit_1 = int(input('Enter digit_1: '))
+digit_2 = int(input('Enter digit_2: '))
+digit_3 = int(input('Enter digit_3: '))
+digit_4 = int(input('Enter digit_4: '))
+digit_5 = int(input('Enter digit_5: '))
+digit_6 = int(input('Enter digit_6: '))
+digit_7 = int(input('Enter digit_7: '))
+digit_8 = int(input('Enter digit_8: '))
+digit_9 = int(input('Enter digit_9: '))
+digit_10 = int(input('Enter digit_10: '))
+digit_11 = int(input('Enter digit_11: '))
+
+digit_12 = 10 - ((digit_0 + (3 * digit_1) + digit_2 + (3 * digit_3) + digit_4 + (3 * digit_5) + digit_6 + (3 * digit_7) + digit_8 + (3 * digit_9) + digit_10 +(3 * digit_11)) % 10)
+print(digit_12)
+
+print(f"{digit_0}{digit_1}{digit_2}-{digit_3}-{digit_4}{digit_5}{digit_6}-{digit_7}{digit_8}{digit_9}{digit_10}{digit_11}-{digit_12}")
