@@ -1,6 +1,6 @@
-even_numbers = []
 def even_between (number_lower, number_upper):
     count = number_upper
+    even_numbers = []
     while count >= number_lower and count <= number_upper:
         if (int(count // 1000)) % 2 == 0:
             if (int(count // 100)) % 2 == 0:
