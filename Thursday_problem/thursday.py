@@ -4,5 +4,3 @@ def alphasort (sentence):
     return organise1
 
 print(alphasort('hello world and practice makes perfect and hello world again'))
-organise1 = [1]
-n=0
